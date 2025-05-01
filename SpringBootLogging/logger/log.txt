@@ -1,0 +1,18 @@
+2025-05-01T16:14:29.430+05:30  INFO 14760 --- [SpringBootLogging] [main] c.e.demo.SpringBootLoggingApplication    : Starting SpringBootLoggingApplication using Java 17.0.13 with PID 14760 (D:\Java Preparation\Spring Workspace\SpringBootLogging\target\classes started by ManiBharath in D:\Java Preparation\Spring Workspace\SpringBootLogging)
+2025-05-01T16:14:29.433+05:30  INFO 14760 --- [SpringBootLogging] [main] c.e.demo.SpringBootLoggingApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T16:14:30.039+05:30  INFO 14760 --- [SpringBootLogging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-01T16:14:30.052+05:30  INFO 14760 --- [SpringBootLogging] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-01T16:14:30.054+05:30  INFO 14760 --- [SpringBootLogging] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-01T16:14:30.100+05:30  INFO 14760 --- [SpringBootLogging] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-01T16:14:30.100+05:30  INFO 14760 --- [SpringBootLogging] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 613 ms
+2025-05-01T16:14:30.371+05:30  INFO 14760 --- [SpringBootLogging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-01T16:14:30.379+05:30  INFO 14760 --- [SpringBootLogging] [main] c.e.demo.SpringBootLoggingApplication    : Started SpringBootLoggingApplication in 1.312 seconds (process running for 1.733)
+2025-05-01T16:14:37.097+05:30  INFO 14760 --- [SpringBootLogging] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01T16:14:37.097+05:30  INFO 14760 --- [SpringBootLogging] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-01T16:14:37.098+05:30  INFO 14760 --- [SpringBootLogging] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-01T16:14:37.128+05:30  INFO 14760 --- [SpringBootLogging] [http-nio-8080-exec-2] c.example.demo.rest.GreetingsController  : Control in api1
+2025-05-01T16:14:37.128+05:30 TRACE 14760 --- [SpringBootLogging] [http-nio-8080-exec-2] c.e.demo.service.GenerateWishesService   : Service / Business logic is been invocked
+2025-05-01T16:14:37.128+05:30 DEBUG 14760 --- [SpringBootLogging] [http-nio-8080-exec-2] c.example.demo.rest.GreetingsController  : Service logic is been invocked and we got response
+2025-05-01T16:16:19.940+05:30  INFO 14760 --- [SpringBootLogging] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-01T16:16:19.942+05:30  INFO 14760 --- [SpringBootLogging] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01T16:16:20.103+05:30  INFO 14760 --- [SpringBootLogging] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

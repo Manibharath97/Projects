@@ -1,0 +1,5 @@
+2025-05-01 14:48:30,113 - com.telusko.Log4JTest - [process] - (DEBUG) - from the debug method - 
+2025-05-01 14:48:30,115 - com.telusko.Log4JTest - [process] - (INFO) - from the info method - 
+2025-05-01 14:48:30,115 - com.telusko.Log4JTest - [process] - (WARN) - from the warn method - 
+2025-05-01 14:48:30,115 - com.telusko.Log4JTest - [process] - (ERROR) - from the error method - 
+2025-05-01 14:48:30,115 - com.telusko.Log4JTest - [process] - (FATAL) - from the fatal method - 
